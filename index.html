@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Calculadora</h1>
+        <div class="numbers">
+            <div class="resultado"></div>
+            <div class="row">
+                <button class="btn" onclick="insertNumber('7')">7</button>
+                <button class="btn" onclick="insertNumber('8')">8</button>
+                <button class="btn" onclick="insertNumber('9')">9</button>
+                <button class="btn" onclick="insertNumber('/')">/</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="insertNumber('4')">4</button>
+                <button class="btn" onclick="insertNumber('5')">5</button>
+                <button class="btn" onclick="insertNumber('6')">6</button>
+                <button class="btn" onclick="insertNumber('*')">*</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="insertNumber('1')">1</button>
+                <button class="btn" onclick="insertNumber('2')">2</button>
+                <button class="btn" onclick="insertNumber('3')">3</button>
+                <button class="btn" onclick="insertNumber('-')">-</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="insertNumber('0')">0</button>
+                <button class="btn" onclick="insertNumber('.')">.</button>
+                <button class="btn" onclick="clearScreen()">C</button>
+                <button class="btn" onclick="insertNumber('+')">+</button>
+            </div>
+            <div class="row">
+                <button class="btn-maior" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="math.js"></script>
+
+</html>
