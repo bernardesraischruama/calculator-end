@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box {
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     color: white;
     height: 80vh;
     width: 60vh;
@@ -28,6 +33,7 @@ button {
     color: white;
     cursor: pointer;
     margin-top: 20px;
+    width: 50px;
 }
 .row {
     display: flex;
