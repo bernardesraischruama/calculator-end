@@ -4,7 +4,7 @@ function inserirNumero(num) {
 function limparTela() {
     document.querySelector('.resultado').innerHTML = '';
 }
-function calculate() {
+function calcular() {
     const expressao = document.querySelector('.resultado').innerHTML;
     // Lembrar: Try | catch será usada para realizar ou bloquear uma ação, nesse caso será usado para permitir a conta, ou bloquear caso o usuário utilize algarismos que não irá funcionar na calculadora.
     try {
